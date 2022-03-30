@@ -1,7 +1,15 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        canna: "Roboto Slab",
+        canna2: "Playfair Display",
+        canna3: "Source Serif 4",
+        canna4: "Alegreya",
+        canna5: "Crimson Pro",
+      },
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {
