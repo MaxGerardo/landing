@@ -24,3 +24,12 @@
 ::-webkit-scrollbar-thumb:hover {
   background-color: #c8d5d8;
 }
+
+.active {
+  --tw-border-opacity: 1;
+  border-bottom-color: hsl(var(--p) / var(--tw-border-opacity));
+}
+
+section {
+  scroll-margin-top: 145px;
+}

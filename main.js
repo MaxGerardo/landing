@@ -1,6 +1,17 @@
-import './style.css'
+import scrollSpy from "simple-scrollspy";
 
-document.querySelector('#app').innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
+const options = {
+  sectionClass: ".scrollspy", // Query selector to your sections
+  menuActiveTarget: ".menu-item", // Query selector to your elements that will be added `active` class
+  offset: 100, // Menu item will active before scroll to a matched section 100px
+  scrollContainer: ".scroll-container", // Listen scroll behavior on `.scroll-container` instead of `window`
+};
+
+window.onload = function () {
+  scrollSpy("#main-menu", {
+    sectionClass: ".scrollspy",
+    menuActiveTarget: ".menu-item",
+    offset: 150,
+    scrollContainer: ".scroll-container",
+  });
+};
