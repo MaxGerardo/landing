@@ -17,11 +17,26 @@
     />
   </head>
   <body>
-    <div class="fixed top-0 z-50 bg-base-100 min-w-full items-center flex">
+    <div class="fixed top-0 z-50 bg-base-100 min-w-full items-center justify-start flex">
+      <div class="dropdown">
+        <label tabindex="0" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </label>
+        <ul tabindex="0" class="menu dropdown-content bg-base-100 rounded-md p-5 space-y-3">
+          <a href="#home" class="font-bold text-xl"> HOME </a>
+
+          <a href="#aboutus" class="font-bold text-xl"> ABOUT US </a>
+          <a href="#two" class="font-bold text-xl"> LABOUR HIRE </a>
+          <a href="#three" class="font-bold text-xl"> JOBSEEKERS </a>
+          <a href="#contactus" class="font-bold text-xl"> CONTACT US </a>
+        </ul>
+      </div>
       <div class="">
         <img class="w-[300px]" src="./assets/CannaClip_Nombre_Blanco_Transparencia-07.png" alt="logo cannaclip" />
       </div>
-      <div id="main-menu" class="flex flex-row flex-grow justify-end space-x-4 lg:mr-0 lg:mx-10 mr-24">
+      <div id="main-menu" class="flex flex-row flex-grow justify-end space-x-4 lg:mr-0 lg:mx-10">
         <div class="hidden lg:flex">
           <a
             href="#home"
@@ -54,22 +69,6 @@
           >
             CONTACT US
           </a>
-        </div>
-
-        <div class="dropdown">
-          <label tabindex="0" class="btn btn-ghost lg:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-            </svg>
-          </label>
-          <ul tabindex="0" class="menu dropdown-content bg-base-100 rounded-md p-5 space-y-3">
-            <a href="#home" class="font-bold text-xl"> HOME </a>
-
-            <a href="#aboutus" class="font-bold text-xl"> ABOUT US </a>
-            <a href="#two" class="font-bold text-xl"> LABOUR HIRE </a>
-            <a href="#three" class="font-bold text-xl"> JOBSEEKERS </a>
-            <a href="#contactus" class="font-bold text-xl"> CONTACT US </a>
-          </ul>
         </div>
       </div>
     </div>
