@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="scroll-smooth" lang="en" data-theme="canna">
+<html class="heropat scroll-smooth" lang="en" data-theme="canna">
 
 <head>
   <link rel="stylesheet" href="./style.css" />
@@ -14,44 +14,44 @@
   <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Crimson+Pro:wght@500&family=Playfair+Display&family=Roboto+Slab:wght@465&family=Source+Serif+4:wght@600&display=swap" rel="stylesheet" />
 </head>
 
-<body>
-  <section id="home" class="scrollspy">
-    <div class="fixed top-0 z-50 bg-base-100 min-w-full items-center justify-start flex">
-      <div class="dropdown">
-        <label tabindex="0" class="btn btn-ghost lg:hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-          </svg>
-        </label>
-        <ul tabindex="0" class="menu dropdown-content bg-base-100 rounded-md p-5 space-y-3">
-          <a href="#home" class="font-bold text-xl"> HOME </a>
-          <a href="#aboutus" class="font-bold text-xl"> ABOUT US </a>
-          <a href="#two" class="font-bold text-xl"> SERVICES </a>
-          <a href="#three" class="font-bold text-xl"> JOBSEEKERS </a>
-          <a href="#contactus" class="font-bold text-xl"> CONTACT US </a>
-        </ul>
-      </div>
-      <div class="">
-        <img class="w-[300px]" src="./assets/Nombre.png" alt="logo cannaclip" />
-      </div>
-      <div id="main-menu" class="lg:flex flex-row flex-grow hidden justify-end space-x-4 mr-5">
-        <div class="hidden lg:flex">
-          <a href="#home" class="menu-item font-bold xl:text-2xl text-xl transition scale-x-100 ease-in duration-150 border-b-4 border-transparent p-3 select-none"> HOME </a>
-          <a href="#about" class="menu-item font-bold xl:text-2xl text-xl transition scale-x-100 ease-in duration-150 border-b-4 border-transparent p-3 select-none"> ABOUT US </a>
-          <a href="#services" class="menu-item font-bold xl:text-2xl text-xl transition scale-x-100 ease-in duration-150 border-b-4 border-transparent p-3 select-none"> SERVICES </a>
-          <!-- <a href="#jobs" class="menu-item font-bold xl:text-2xl text-xl transition scale-x-100 ease-in duration-150 border-b-4 border-transparent p-3 select-none"> JOBSEEKERS </a> -->
-          <a href="#contactus" class="menu-item font-bold xl:text-2xl text-xl transition scale-x-100 ease-in duration-150 border-b-4 border-transparent p-3 select-none"> CONTACT US </a>
-        </div>
+<body class="heropat">
+  <nav id="nav" class="fixed top-0 z-50   min-w-full items-center justify-start flex">
+    <div class="dropdown">
+      <label tabindex="0" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+        </svg>
+      </label>
+      <ul tabindex="0" class="menu dropdown-content bg-base-100 rounded-md p-5 space-y-3">
+        <a href="#home" class="font-bold text-xl"> HOME </a>
+        <a href="#aboutus" class="font-bold text-xl"> ABOUT US </a>
+        <a href="#two" class="font-bold text-xl"> SERVICES </a>
+        <a href="#three" class="font-bold text-xl"> JOBSEEKERS </a>
+        <a href="#contactus" class="font-bold text-xl"> CONTACT US </a>
+      </ul>
+    </div>
+    <div class="">
+      <img class="w-[300px]" src="./assets/Nombre.png" alt="logo cannaclip" />
+    </div>
+    <div id="main-menu" class="lg:flex flex-row flex-grow hidden justify-end space-x-4 mr-5">
+      <div class="hidden lg:flex">
+        <a href="#home" class="menu-item font-bold xl:text-2xl text-xl transition scale-x-100 ease-in duration-150 border-b-4 border-transparent p-3 select-none"> HOME </a>
+        <a href="#about" class="menu-item font-bold xl:text-2xl text-xl transition scale-x-100 ease-in duration-150 border-b-4 border-transparent p-3 select-none"> ABOUT US </a>
+        <a href="#services" class="menu-item font-bold xl:text-2xl text-xl transition scale-x-100 ease-in duration-150 border-b-4 border-transparent p-3 select-none"> SERVICES </a>
+        <!-- <a href="#jobs" class="menu-item font-bold xl:text-2xl text-xl transition scale-x-100 ease-in duration-150 border-b-4 border-transparent p-3 select-none"> JOBSEEKERS </a> -->
+        <a href="#contactus" class="menu-item font-bold xl:text-2xl text-xl transition scale-x-100 ease-in duration-150 border-b-4 border-transparent p-3 select-none"> CONTACT US </a>
       </div>
     </div>
-    <div class="mt-[145px] bg-fixed bg-center bg-cover bg-[url('./assets/CannaClip_Hero.jpg')]">
-      <div class="h-[600px] backdrop-brightness-50 items-center flex justify-center">
-        <div class="flex flex-col md:flex-row">
-          <div class="max-w-3xl">
-            <p class="font-serif font-semibold lg:text-7xl text-6xl"> Spend less worring and more time growing! </p>
-            <p class="mt-10 max-w-2xl font-serif text-xl md:text-2xl"> CannaClip provides the best labour support to the cannabis industry in the Okanagan. </p>
-          </div>
+  </nav>
+  <section id="home" class="scrollspy">
+    <div class="hero bg-fixed min-h-screen bg-[url('./assets/Hero-Canna2.jpg')]">
+      <div class="hero-overlay bg-opacity-50"></div>
+      <div class="hidden sm:flex items-center ">
+        <div class="max-w-3xl">
+          <p class="font-serif font-semibold lg:text-7xl text-6xl"> Spend less worring and more time growing! </p>
+          <p class="mt-10 max-w-2xl font-serif text-xl md:text-2xl"> CannaClip provides the best labour support to the cannabis industry in the Okanagan. </p>
         </div>
+        <a class="btn btn-secondary" href="#contactus"> Book Now </a>
       </div>
     </div>
   </section>
@@ -78,7 +78,7 @@
     </div>
   </section>
   <section id="services" class="scrollspy">
-    <div class="bg-fixed bg-center bg-cover bg-[url('./assets/CannaClip_Hero.jpg')] my-8">
+    <div class="bg-fixed bg-center bg-cover bg-[url('./assets/Hero-Canna3.jpg')] my-8">
       <div class="h-48 flex items-center justify-center backdrop-brightness-50">
         <h1 class="my-8 font-bold text-center text-6xl">SERVICES</h1>
       </div>
@@ -141,13 +141,13 @@
     </div>
   </section>
   <section id="contactus" class="scrollspy">
-    <div class="bg-fixed bg-center bg-cover bg-[url('./assets/CannaClip_Hero.jpg')] my-8">
+    <div class="bg-fixed bg-center bg-cover bg-[url('./assets/Hero-Canna4.jpg')] my-8">
       <div class="h-48 flex items-center justify-center backdrop-brightness-50">
         <h1 class="my-8 font-bold text-center text-6xl">CONTACT US</h1>
       </div>
     </div>
     <div class="mb-7 p-5 flex justify-center w-full">
-      <div class="w-72 m-3 mr-6">
+      <div class="w-72 m-3 mr-6 hidden sm:block">
         <div class="">
           <p><strong>Our Office</strong><br> Ph.: +12 3 4567 8912<br> E-mail: <a href="mailto:info@cannaclipsolutions.ca">info@cannaclipsolutions.ca</a><br> Address: 123/445-442 Canada Street, Ontario, CA 2022.</p>
         </div>
@@ -223,3 +223,20 @@
 </body>
 
 </html>
+<script>
+  showScrollTop = () => {
+    const currentScrollPosition = window.pageYOffset;
+    let elementID = 'about'
+    const elementOffsetTop = document.getElementById(elementID).offsetTop
+
+    if (currentScrollPosition > elementOffsetTop - 200) {
+      var element = document.getElementById("nav");
+      element.classList.add("bg-base-200");
+    } else {
+      var element = document.getElementById("nav");
+      element.classList.remove("bg-base-200");
+    }
+  }
+
+  window.addEventListener('scroll', showScrollTop)
+</script>
