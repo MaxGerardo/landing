@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "daisyui": "^2.14.3",
-    "simple-scrollspy": "^2.2.0"
+    "simple-scrollspy": "^2.2.0",
+    "swiper": "^8.2.2"
   }
 }
